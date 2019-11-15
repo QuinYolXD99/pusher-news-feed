@@ -1,0 +1,31 @@
+{
+  "name": "pusher-news-feed",
+  "version": "1.0.0",
+  "description": "this is for push notifications ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yol-24/pusher-news-feed.git"
+  },
+  "keywords": [
+    "pusher",
+    "android",
+    "pn"
+  ],
+  "author": "Yol Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yol-24/pusher-news-feed/issues"
+  },
+  "homepage": "https://github.com/yol-24/pusher-news-feed#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pusher": "^3.0.0"
+  }
+}
